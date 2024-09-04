@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listeler - Tablolar - </title>
+</head>
+
+<body>
+    <h1>LİSTELER</h1>
+    <h2>Meyveler</h2>
+    <h3>Unordered List</h3>
+    <ul>
+        <li>Portakal</li>
+        <li>Elma </li>
+        <li>Domates</li>
+    </ul>
+
+    <h3>Ordered List
+        <br>
+        (Nüfuslarına Göre İller)
+    </h3>
+
+    <ol type="A">
+        <li>İstanbul</li>
+        <li>Ankara</li>
+        <li>İzmir</li>
+    </ol>
+
+    <dl>
+        <dt>Term(name)</dt>
+        <dd>- Discribes</dd>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+    </dl>
+    <hr />
+    <!-- comment satırı için 
+     ctrl+k+c
+     comment satırı dışına çıkarmak için
+     ctrl + k + u
+     yada belirli bir metni seçmek için 
+     shift+alt+a  -->
+
+    <h1>TABLOLAR</h1>
+    <h2>Memleketler</h2>
+    <table border="2">
+        <tr> <!-- table row -->
+            <th rowspan="4">TÜRKİYE</th>
+            <th>Plaka </th>
+            <th>Şehir </th>
+            <th>Neyiyle Meşhur? </th>
+            <th>Bölgesi </th>
+            <th>Denizi var mı? </th>
+        </tr>
+        <tr>
+            <td>55</td>
+            <td>Samsun</td>
+            <td>Bafra Pidesi</td>
+            <td>Karadeniz</td>
+            <td>Evet</td>
+        </tr>
+        <!-- tr>td*5 ile 5 sutunlu bir satır oluşur -->
+        <tr>
+            <td>35</td>
+            <td>İzmir</td>
+            <td>Boyoz</td>
+            <td>Ege</td>
+            <td>Evet</td>
+        </tr>
+        <tr>
+            <td>60</td>
+            <td>Tokat</td>
+            <td>Yaprak Sarması</td>
+            <td>Karadeniz</td>
+            <td>Hayır</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Filmler</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th> Film Adı</th>
+                <th> Yılı</th>
+                <th> Puan</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Kaybedenler Kulübü</td>
+                <td>2011</td>
+                <td>7.5</td>
+            </tr>
+            <tr>
+                <td>The Godfather</td>
+                <td>1972</td>
+                <td>9.2</td>
+            </tr>
+            <tr>
+                <td>Cars</td>
+                <td>2006</td>
+                <td>7.2</td>
+            </tr>
+            <tr>
+                <td>Babam ve Oğlum</td>
+                <td>2005</td>
+                <td>8.2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th>Ortalama Puan</th>
+            <th colspan="2">8,025</th>
+        </tfoot>
+    </table>
+    <hr>
+    <h1>BLOCK INLINE</h1>
+    <!-- h1,p ,div, ul gibi elementler  
+ Sağı boş dahi olsa sağına yeni bir element kabul ETMEZ-->
+    <p>Adım</p>
+    <p>Ali</p>
+    <!-- span, img, a, strong, em gibi elemenler inline elementtir.
+ satırı paylaşırlar yanyana sıralanırlar
+ SANKİ BİR CÜMLENİN HARFLERİ GİBİ DAVRANIRLAR-->
+    <span>Adım</span><span>Veli</span>
+    <hr>
+
+    bu resim
+    <img src="//picsum.photos/id/144/1000" alt="bir resim" height="64">
+    <em>Samed</em>'e
+    gelsin.
+    <!-- tag içine alınacak alan seçilir. ctrl+shift+p  ile emmet:wrap yazılır sonra istenilen tag yazılarak işlem tamamlanır-->
+    <p>Lorem <a href="https://google.com/" target="_blank">ipsum</a> <strong>dolor</strong> sit amet.</p>
+
+    <hr>
+    <p> km <sup>2</sup> </p>
+    <p> Bol bol <strong><em>H <sub>2</sub>O</em></strong> içiniz</p>
+</body>
+
+</html>
